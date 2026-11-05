@@ -6,4 +6,10 @@
     nav span{
         display: block;
     }
+
+    /**cards tag**/
+    .cards{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }

@@ -1,20 +1,34 @@
 /**Cholor Scheme**/
 :root{
-    --color-primary: #cc33aa;
-    --color-secondary: #5577aa;
-    /**series of gray**/
-    --color-mygrey-05:lab(98% 0 0);
-    --color-mygrey-10:lab(97% 0 0);
-    --color-mygrey-20:lab(91% 0 0);
-    --color-mygrey-30:lab(85% 0 0);
-    --color-mygrey-40:lab(66% 0 0);
-    --color-mygrey-50:lab(48% 0 0);
-    --color-mygrey-60:lab(34% 0 0);
-    --color-mygrey-70:lab(27% 0 0);
-    --color-mygrey-80:lab(15% 0 0);
-    --color-mygrey-90:lab(8% 0 0);
-    --color-mygrey-95:lab(3% 0 0);
-
+/*Add Transparent Colors*/
+--color-trans10: rgba(255, 255, 255, 0.1);
+--color-trans20: rgba(255, 255, 255, 0.2);
+--color-trans30: rgba(255, 255, 255, 0.3);
+--color-trans40: rgba(255, 255, 255, 0.4);
+--color-trans50: rgba(255, 255, 255, 0.5);
+--color-trans60: rgba(255, 255, 255, 0.6);
+--color-trans70: rgba(255, 255, 255, 0.7);
+--color-trans80: rgba(255, 255, 255, 0.8);
+--color-trans90: rgba(255, 255, 255, 0.9);
+/*Add a selection of Colors*/
+--color1: #590000;
+--color2: #595900;
+--color3: #005900;
+--color4: #005959;
+--color5: #000059;
+--color6: #590059;
+/*Add a grey scale Colors*/
+--color-mygrey-05: lab(98% 0 0);
+--color-mygrey-10: lab(97% 0 0);
+--color-mygrey-20: lab(91% 0 0);
+--color-mygrey-30: lab(85% 0 0);
+--color-mygrey-40: lab(66% 0 0);
+--color-mygrey-50: lab(48% 0 0);
+--color-mygrey-60: lab(34% 0 0);
+--color-mygrey-70: lab(27% 0 0);
+--color-mygrey-80: lab(15% 0 0);
+--color-mygrey-90: lab(8% 0 0);
+--color-mygrey-95: lab(3% 0 0);
 }
 
 /**Border-Box**/
@@ -39,7 +53,7 @@ body{
 
 /**navigation tag**/
 nav{ 
-    background-color: rgb(241, 251, 255);
+    background-color: var(--color-mygrey-90);
     position: sticky;
     top:0;
 }
@@ -78,7 +92,7 @@ nav a{
 }
 
 nav a:hover{
-    background-color: rgb(180, 58, 180);
+    background-color: var(--color-trans-20);
 }
 
 nav li:last-child a{
@@ -90,19 +104,81 @@ nav.show{
 }
 
 nav li a.active {
-    background-color: var(--color-mygrey-40);
+    background-color: var(--color-trans-10);
 }
 
 /**main stuff tag**/
+    #home{
+        background-color: var(--color1);
+    }
+
+    #aboutMe{
+        background-color: var(--color2);
+    }
+
+    #education{
+        background-color: var(--color3);
+    }
+
+    #careerGoals{
+        background-color: var(--color4);
+    }
+
+    #technologySkills{
+        background-color: var(--color5);
+    }
+
+    #contact{
+        background-color: var(--color6);
+    }
+
     article{
+        min-height: 100vh;
         padding-top: 50px;
     }
 
-    h1{ 
-        font-size:1.5rem;
-        color: var(--color-mygrey-90);
-        font-weight:500;
-        margin-left:10px;
+    article h1, article h2{
+        color: var(--color-trans80);
+        margin: 0;
+        padding: 1rem 10px;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    /**cards tag**/
+    .cards{
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+
+    .cards section{
+        background-color: var(--color-trans10);
+        border: 1px solid var(--color-trans20);
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 1rem 10px;
+    }
+
+    .cards h3{
+        background-color: var(--color-trans30);
+        margin:0;
+        padding: 1rem 0;
+        text-align: center;
+        color: var(--color-mygrey-05);
+    }
+
+    .cards img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .cards p{
+        font-weight: 300;
+    }
+
+    h1, h2, h3, p{ 
+        margin: 0;
     }
 
     h2{
