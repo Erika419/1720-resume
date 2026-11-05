@@ -36,26 +36,6 @@ body{
   transition: background-image 0.5s ease;
 }
 
-/**header tag**/
-header{
-    padding: 10px;
-    border-bottom: solid 1px #ddd;
-    display: grid;
-    align-items: center;
-    column-gap: 8px;
-    grid-template-columns: 24px 1fr auto;
-}
-
-header img{
-    display: block;
-    width: 100%;
-    height: auto;
-    padding-bottom: 5px;
-}
-
-header span{
-    color: var(--color-secondary);
-}
 
 /**navigation tag**/
 nav{ 
@@ -93,27 +73,6 @@ nav.show{
 
 nav li a.active {
     background-color: var(--color-mygrey-40);
-}
-
-
-/**Hamburger Stuff tag**/
-.hamburger{
-    background: none;
-    border:none;
-    color:#232323;
-    cursor: pointer;
-    font-size: 2rem;
-    font-family: Verdana;
-}
-
-.hamburger::before{
-    content: "\2630";
-
-}
-
-.hamburger.show::before{
-    content: "\00D7";
-
 }
 
 /**main stuff tag**/
