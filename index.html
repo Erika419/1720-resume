@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1720-Presidents</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!--fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BioRhyme+Expanded:wght@200;300;400;700;800&display=swap" rel="stylesheet">
+
+    <!--Open Graph-->
+<meta property="og:title" content="1720-weather" />
+<meta property="og:description" content="Welcome to 1720-weather" />
+<meta property="og:image" content="https://erika419.github.io/1720-weather/images/opengraph.jpg" />
+<meta property="og:url" content="https://erika419.github.io/1720-weather/">
+<meta property="og:logo" content="https://erika419.github.io/1720-weather/images/favicon.svg" />
+<meta property="og:type" content="website" />
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="/1720-weather/images/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/1720-weather/images/favicon.svg" />
+<link rel="shortcut icon" href="/1720-weather/images/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/1720-weather/images/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="weather" />
+<link rel="manifest" href="/1720-flags/images/site.webmanifest" />
+
+    <!--SCRIPTS--->
+    
+    <script src="scripts/year.js" defer> </script>
+    <script src="scripts/navigation.js" defer> </script>
+     <script src="scripts/scripts.js" defer> </script>
+     <script src="scripts/flags.js" defer> </script>
+     <script src="scripts/view.js" defer> </script>
+     <script src="scripts/background.js" type="module"> </script>
+     <script src="scripts/robot.js" type="module"> </script>
+     <script src="scripts/getweather.js" type="module"> </script>
+</head>
+
+
+<body>
+    <header>
+        <img src="images/favicon.svg" alt="site logo" width="16" height="16">
+        <span style="color:black; background-color: rgba(208, 208, 208, 0.542); width: 185px;"> 1720-Weather</span>
+        <!--   <button id="hamburger" class="hamburger" aria-label="nav link button"></button>-->
+    </header> 
+ 
+            
+        <!--    
+        <nav id="navbar">
+            <ul>
+                <li>
+                    <a href="#"> Full Name </a> 
+                </li>
+
+                <li>
+                    <a class="active" href="#"> Weather</a>
+                </li>
+                    
+                <li>
+                    <a href="#"> Code</a>
+                </li>
+
+                <li>
+                    <a href="#"> Currency</a>
+                </li>
+            </ul>
+        </nav> 
+        -->
+
+
+        <main>
+            <h1 style="color:black; background-color: rgba(208, 208, 208, 0.542); width: 180px;">Weather</h1>
+            <div id="photos" class="show-here"></div>
+            <div id="button-container">
+            <button id="park1">Wasatch</button>
+            <button id="park2">Everglades</button>
+            <button id="park3">Bryce Canyon</button>
+             <button id="park4">Mammoth</button>
+             </div>
+
+            <div id="info"></div>
+
+
+      
+        </main>
+
+
+      
+
+        <footer>
+        <section class="social" id = assign>
+            <a href="https://www.facebook.com/profile.php?id=100090238174808" target="_blank"><img src="images/icons8-facebook.svg" alt="facebook" width="16" height="16"> </a>
+            <a href="https://github.com/Erika419/" target="_blank"><img src="images/github-142-svgrepo-com.svg" alt="github" width="16" height="16"> </a>
+            <a href="https://www.linkedin.com/in/laila-moro-849673341/" target="_blank"><img src="images/linkedin-svgrepo-com.svg" alt="linkedin" width="16" height="16"> </a>
+            <a href="https://www.youtube.com/@lailamoro9356" target="_blank"><img src="images/youtube-168-svgrepo-com.svg" alt="youtube" width="16" height="16"> </a>
+        </section>
+        
+        <p>&copy; <span id="currentyear"></span> &bull; Erika Costecalde &bull; DWDD1720</p>
+        
+    </footer>
+</body>
+</html> 
