@@ -1,3 +1,9 @@
 @media only screen and (min-width:30rem){
-    
+    nav img{
+        display:none;
+    }
+
+    nav span{
+        display: block;
+    }
 }
