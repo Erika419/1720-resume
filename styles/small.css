@@ -128,8 +128,12 @@ nav li a.active {
         background-color: var(--color5);
     }
 
-    #contact{
+    #jobs{
         background-color: var(--color6);
+    }
+
+    #contact{
+        background-color: var(--color7);
     }
 
     article{
