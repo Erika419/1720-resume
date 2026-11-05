@@ -159,7 +159,7 @@ nav li a.active {
         margin: 1rem 10px;
     }
 
-    .cards h3{
+    .cards h2{
         background-color: var(--color-trans30);
         margin:0;
         padding: 1rem 0;
