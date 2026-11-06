@@ -110,6 +110,11 @@ nav li a.active {
 }
 
 /**main stuff tag**/
+
+    main {
+    overflow: visible;
+    }
+      
     #home{
         background-color: var(--color1);
     }
