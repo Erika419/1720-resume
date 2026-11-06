@@ -38,16 +38,17 @@
 }
 
 /**body tag**/
-body{
-  font-family: "Quicksand", sans-serif;
-  color: black;
-  background: no-repeat;
-  margin:0;
-  padding:0;
-  background-size:cover;
-  height: 100vh;
-  background-position:center;
-  transition: background-image 0.5s ease;
+
+body {
+    font-family: "Quicksand", sans-serif;
+    color: black;
+    background: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    transition: background-image 0.5s ease;
 }
 
 
@@ -114,7 +115,7 @@ nav li a.active {
     main {
     overflow: visible;
     }
-      
+
     #home{
         background-color: var(--color1);
     }
