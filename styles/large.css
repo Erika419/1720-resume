@@ -7,10 +7,10 @@
 
     nav{
         grid-row: 1/span 2;
-        position: fixed;
     }
 
     nav ul{
+        position: fixed;
         flex-direction: column;
         height:100vh;
         width: 200px;
