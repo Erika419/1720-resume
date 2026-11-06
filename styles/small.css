@@ -56,6 +56,7 @@ nav{
     background-color: var(--color-mygrey-90);
     position: sticky;
     top:0;
+    z-index: 1000;
 }
 
 nav img{
@@ -104,7 +105,7 @@ nav.show{
 }
 
 nav li a.active {
-    background-color: var(--color-trans-10);
+    background-color: var(--color-trans10);
 }
 
 /**main stuff tag**/
