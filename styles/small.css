@@ -92,7 +92,7 @@ nav a{
 }
 
 nav a:hover{
-    background-color: var(--color-trans-20);
+    background-color: var(--color-trans20);
 }
 
 nav li:last-child a{
