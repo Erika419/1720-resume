@@ -52,11 +52,12 @@ body{
 
 
 /**navigation tag**/
-nav{ 
+nav {
     background-color: var(--color-mygrey-90);
     position: sticky;
-    top:0;
+    top: 0;
     z-index: 1000;
+    width: 100%;
 }
 
 nav img{
