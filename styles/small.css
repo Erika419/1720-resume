@@ -163,7 +163,7 @@ nav li a.active {
         margin: 1rem 10px;
     }
 
-    .cards h2{
+    .cards h3{
         background-color: var(--color-trans30);
         margin:0;
         padding: 1rem 0;
@@ -193,86 +193,7 @@ nav li a.active {
         color: var(--color-mygrey-60);
         }
 
-    .sbs section{
-        border: 1px solid #eee;
-        border-radius:10px;
-        box-shadow: 0 0 10px #aaa;
-        margin: 0.5rem 10px;
-        overflow: hidden;
-    }
-
-    .sbs h2{
-        background-color: rgb(119, 197, 223);
-        color: #232323;
-        font-weight: 400;
-        font-size:1.25rem;
-        margin: 0;
-        padding: 0.5rem 0.2rem;
-        text-align: center;
-    }
-
-    .sbs p{
-        font-weight: 200;
-        margin: 10px;
-        line-height: 130%;
-    }
-
-    .sbs img{
-        display: block;
-        width:100%;
-        height:100%;
-    }
-
-    /**Hero Image tag**/
-    .hero{
-        position: relative;
-    }
-
-    .hero img{
-        display: block;
-        width: 100%;
-        height: auto;
-    }
-   
-    .hero H1{
-        position: absolute;
-        top: 0;
-        left: 0;
-        margin: 0;
-        padding: 10px;
-        background-color: rgb(255, 255, 255, 0.5);
-        width: 100%;
-        color: var(--color-primary);
-        font-weight: 400;
-    }
-
-
- /**Display Styles tag**/
-.display h3{
-    color: var(--color-mygrey-50);
-    margin: 1rem 0 0;
-    font-size: 0.8rem;
-    font-weight: 300;
-}
-
-.display p{
-    margin: 0;
-    color: var(--color-primary);
-}
-
-.display button{
-    background-color: var(--color-secondary);
-    color: var(--color-mygrey-05);
-    border:none;
-    border-radius: 99px;
-    padding: 0.5rem;
-    margin-top: 0.5rem;
-    width: 260px;
-    &:hover{
-        background-color: var(--color-primary);
-        box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    }
-}
+    
 
 /**social media tag**/
     .social{
