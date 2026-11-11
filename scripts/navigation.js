@@ -16,6 +16,7 @@ const observerOptions={
 const myObserver= new IntersectionObserver(allItems =>{
     allItems.forEach(singleItem => {
         if (singleItem.isIntersecting){
+            console.log(singleItem.target)
             highlight(singleItem.target)
         }
     })
