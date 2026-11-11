@@ -107,7 +107,7 @@ nav.show{
     display: block;
 }
 
-nav li a.active {
+nav li.active {
     background-color: var(--color-trans10);
 }
 
