@@ -145,6 +145,8 @@ nav li a.active {
     }
 
     article{
+        display: flex;
+        justify-content:center;
         min-height: 100vh;
         padding-top: 50px;
     }
