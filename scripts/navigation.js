@@ -24,10 +24,10 @@ const myObserver= new IntersectionObserver(allItems =>{
 
 //Funtion to Add a class
 function highlight(cmi) {
-    document.querySelector('xxx').classList.remove('xxx');
+    document.querySelector('.active').classList.remove('active');
     let theid= cmi.getAttribute('id');
     let newActiveLink = document.querySelector(`[href="#${theid}"]`)
-    newActiveLink.parentElement.classList.add('xxx');
+    newActiveLink.parentElement.classList.add('active');
 }
 
 //Call the Observer on page load
