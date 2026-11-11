@@ -1,15 +1,15 @@
 //Get a list of items to watch
 const myListOfItems= document.querySelectorAll('article')
-console.log('myListOfItems')
+console.log(myListOfItems)
 
 //Configure the Observer
-let observerOptions={
+const observerOptions={
     //null is the default and references the viewport
     root: null,
     //alters the viewport, negative values decrease the size.
     rootMargin: '0px 0px 0px 0px',
     //0 is barely showing, 1 is fulling showing
-    threshold: xxxx
+    threshold: 0
 }
 
 //AllItems is a list of all elements being watched
