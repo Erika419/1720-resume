@@ -17,6 +17,7 @@
 --color4: #005959;
 --color5: #000059;
 --color6: #590059;
+--color7: #592f00;
 /*Add a grey scale Colors*/
 --color-mygrey-05: lab(98% 0 0);
 --color-mygrey-10: lab(97% 0 0);
@@ -187,6 +188,7 @@ nav li a.active {
 
     .cards p{
         font-weight: 300;
+        color:white;
     }
 
     h1, h2, h3, p{ 
