@@ -9,7 +9,7 @@ const observerOptions={
     //alters the viewport, negative values decrease the size.
     rootMargin: '0px 0px 0px 0px',
     //0 is barely showing, 1 is fulling showing
-    threshold: 0
+    threshold: 0.1
 }
 
 //AllItems is a list of all elements being watched
