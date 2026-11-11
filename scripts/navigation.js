@@ -1,6 +1,6 @@
 //Get a list of items to watch
 const myListOfItems= document.querySelectorAll('article')
-console.log('myListofItems')
+console.log('myListOfItems')
 
 //Configure the Observer
 let observerOptions={
