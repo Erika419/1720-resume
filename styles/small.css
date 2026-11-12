@@ -170,7 +170,6 @@ nav li.active a{
         border-radius: 10px;
         overflow: hidden;
         margin: 1rem 10px;
-        padding: 4px;
     }
 
     .cards h3{
@@ -190,6 +189,7 @@ nav li.active a{
     .cards p{
         font-weight: 300;
         color:white;
+        padding: 8px;
     }
 
     h1, h2, h3, p{ 
